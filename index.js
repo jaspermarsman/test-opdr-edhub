@@ -1,12 +1,10 @@
-//Bereken de oppervlakte van een cirkel
-function calculateCircleArea(radius){
-    const area = (Math.PI) * radius * radius;
-    const rounded = Math.round(area * 100) / 100;
-    return rounded;
+//Schrijf een functie die de oppervlakte van een cirkel berekent en de uitkomst afrond naar 2 decimalen.
+function calculateCircleArea(){
+   WRITE ME ;-)
 
 }
 
-console.log(calculateCircleArea(2));
+
 
 module.exports = {
     calculateCircleArea: calculateCircleArea,
