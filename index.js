@@ -1,10 +1,13 @@
-function multiply(num1, num2){
-    const multi = num1 * num2;
-    return multi;
+//Bereken de oppervlakte van een cirkel
+function calculateCircleArea(radius){
+    const area = (Math.PI) * radius * radius;
+    const rounded = Math.round(area * 100) / 100;
+    return rounded;
+
 }
 
-console.log(multiply(3,6));
+console.log(calculateCircleArea(2));
 
 module.exports = {
-    multiply: multiply,
+    calculateCircleArea: calculateCircleArea,
 };

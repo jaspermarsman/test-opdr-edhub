@@ -1,14 +1,11 @@
-//const multiply = require("../index").multiply;
-const { multiply } = require("../index");
-
-test("multiply() should return the multiplication of 2 numbers", () => {
+const { calculateCircleArea } = require("../index");
+test("calculateCircleArea() should calcuelate the area of a circle and rounds the result to 2 decimals ", () => {
 //ARRANGE
-    const num1 = 4;
-    const num2 = 3;
+const radius = 2;
 
 //ACT
-const result = multiply(num1, num2);
+const result = calculateCircleArea(radius);
 
 //ASSERT
-expect(result).toBe(12);
+expect(result).toBe(12.57);
 });
